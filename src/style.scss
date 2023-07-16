@@ -54,7 +54,7 @@
 
 .introduction {
   padding: 160px 0;
-  background: url(./assets/background-img.png) no-repeat center;
+  background: url(@/assets/background-img.png) no-repeat center;
   & .container {
     display: flex;
   }
