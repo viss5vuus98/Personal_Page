@@ -2,7 +2,7 @@
 
 https://viss5vuus98.github.io/Personal_Page/
 
-## Project setup 專案設置
+## 專案設置
 
 - 此專案透過`vite`啟動。
 - 使用`SCSS`預處理器
@@ -21,7 +21,7 @@ npm run dev
 # server run on http://127.0.0.1:3000/Personal_Page/
 
 ```
-## Project structure 專案架構
+## 專案架構
 
 - `assets` 靜態檔案, Image
 - `src` .scss檔案, .js檔案
