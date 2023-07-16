@@ -8,15 +8,17 @@
 // nav
 .nav {
   background-color: $font_black;
-  padding-top: 16px;
+  padding-top: 40px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   .nav_item {
     color: #d1d1d1;
+    &:nth-child(3){
+      width: 306px;
+    }
   }
 }
 
