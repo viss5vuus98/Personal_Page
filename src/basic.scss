@@ -1,0 +1,28 @@
+@import './variable.scss';
+
+body,
+a {
+  font-family: 'Bruno Ace', cursive;
+  line-height: 1.5;
+}
+
+.section_title {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.description {
+  font-size: 24px;
+}
+
+a {
+  font-size: 16px;
+}
+
+.btn {
+  @extend %btn_content;
+}
+
+h1 {
+  font-size: 128px;
+}

@@ -1,0 +1,188 @@
+@import "./variable.scss";
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+// nav
+.nav {
+  background-color: $font_black;
+  padding-top: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav_item {
+    color: #d1d1d1;
+  }
+}
+
+// header
+
+.header {
+  background-color: $font_black;
+  padding: 72px 0;
+  & .container {
+    display: flex;
+  }
+  .avatar {
+    display: block;
+    margin-right: 24px;
+  }
+  .title_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &>p {
+      font-size: 64px;
+      color: $font_white;
+    }
+  }
+}
+.title_name {
+  text-align: end;
+  color: $title_color;
+}
+.h_btn_content {
+  text-align: end;
+}
+
+//introduction
+
+.introduction {
+  padding: 160px 0;
+  background: url(../public/asset/background-img.png) no-repeat center;
+  & .container {
+    display: flex;
+  }
+  & .section_title {
+    margin-bottom: 36px;
+    color: $font_white;
+  }
+
+  & .description {
+    margin-bottom: 32px;
+    color: $font_white;
+  }
+}
+
+.section_right {
+  display: flex;
+  & img {
+    display: block;
+    margin-left: 24px;
+  }
+}
+
+//about
+
+.about {
+  padding: 160px 0;
+  display: flex;
+  align-items: center;
+  & .section_title {
+    margin-bottom: 36px;
+  }
+}
+
+.about_cards {
+  min-width: 636px;
+  height: 328px;
+  margin-right: 134px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card {
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #e3e3e3;
+  & h4 {
+    font-size: 20px;
+  }
+}
+
+//banner 
+
+.banner {
+  padding: 96px 0;
+  background: linear-gradient(#050014 0%, #01021E 89%);
+  & .container {
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+  }
+}
+.banner_title {
+  height: 92px;
+  width: 900px;
+  display: flex;
+  & .section_title {
+    margin-right: 16px;
+    color: $font_white;
+  }
+}
+
+.banner_links {
+  display: flex;
+  align-items: center;
+}
+//project
+
+.project {
+  padding: 160px 0;
+  & .section_title {
+    width: 746px;
+    margin-left: auto;
+    margin-bottom: 16px;
+  }
+}
+
+.project_container {
+  display: flex;
+}
+.p_left_img {
+  margin-right: 24px;
+}
+
+.p_card {
+  margin-bottom: 24px;
+  display: flex;
+  & img {
+    display: block;
+    margin-right: 24px;
+  }
+  & p {
+    margin-bottom: 76px;
+  }
+}
+
+.p_card_btn {
+  background-color: $font_black;
+  a {
+    color: $font_white;
+  }
+  & img {
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+.p_img_content {
+  display: flex;
+  gap: 24px; 
+}
+
+//footer 
+.footer {
+  padding: 40px 0;
+  background-color: $font_black;
+  text-align: center;
+}
+
+.footer_text {
+  color: $font_white;
+}
